@@ -463,8 +463,14 @@ input{
     font-size: 20px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.712);
     padding:10px;
-    width:clamp(150px, 300px, 10%)
+    width:clamp(150px, 300px, 10%);
+    transition-duration:.5s;
 }
+
+.pmBtn:hover, .pmBtn2:hover, .pmBtn3:hover {
+    transform:scale(1.1);
+    background-color: rgb(163, 125, 27);
+} 
 
 .quantity, .quantity2, .quantity3{
     width:100px;
